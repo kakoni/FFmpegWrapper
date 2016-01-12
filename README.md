@@ -4,11 +4,11 @@ FFmpegWrapper is a lightweight Objective-C wrapper for some FFmpeg libav functio
 
 ## Installation
 
-Note: This project includes [FFmpeg-iOS](https://github.com/chrisballinger/FFmpeg-iOS) as submodule which you will need to build separately.
+Note: This project fork uses [homebrew](https://github.com/Homebrew/homebrew) ffmpeg libs and builds for osx. Configure your header/library search paths from xcode build settings.
 
 1. Add this as a git submodule to your project.
 
-		$ git submodule add Submodules/FFmpegWrapper https://github.com/OpenWatch/FFmpegWrapper.git
+		$ git submodule add FFmpegWrapper https://github.com/kakoni/FFmpegWrapper.git
 
 2. Drag `FFmpegWrapper.xcodeproj` into your project's files.
 3. Add `FFmpegWrapper` to your target's Target Dependencies in Build Phases.
